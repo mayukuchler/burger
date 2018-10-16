@@ -1,0 +1,75 @@
+html {
+    background-color: lightskyblue;
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+}
+
+#cute_burger {
+    display: block;
+   margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.burgerAvailable {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #c98fad;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: #81ff94;
+}
+
+.burgerEaten {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    margin: 10px;
+    padding: 10px;
+    background-color: #cf9d07;
+}
+
+h2 {
+     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color: orange;
+}
+
+.addBurgerButton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(152, 222, 217);
+    border: none;
+}
