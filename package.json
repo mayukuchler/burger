@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mayukuchler/burger.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lucy <mayukuchler@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mayukuchler/burger/issues"
@@ -20,9 +21,10 @@
   "dependencies": {
     "all": "0.0.0",
     "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
     "method-override": "^3.0.0",
     "mysql": "^2.16.0"
-  }
+  },
+  "devDependencies": {}
 }
